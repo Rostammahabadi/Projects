@@ -1,1 +1,1 @@
-# Stock-Trading-Algorithm
+# Projects i've completed and currently working on
