@@ -2,9 +2,11 @@
    using namespace std;
 
    int main(int, char**) {
-    cerr << "Enter an integer: ";
+
     int y,x,z,q,v;
     double n,w,e,r;
+    
+    cout << "Enter a number" << endl;
     cin >> n;
     
     y=0-n;
@@ -25,11 +27,6 @@
     e=n/10;
     r=e*e;
     cout << "One/-tenth of " << n << " is " << e << " and " << e << " squared is " << r << endl;
-    
-    
-    //cout << n << " minus the last digit of " << n << " is " << b << endl; IDFK?!
-    // define variable b in beginning
-    //provide equation to calculate
     
     v= n+n+n+3;
     cout << " The sum of " << n << " and " << n+1 << " and " << n+2 << " is " << v << endl;
