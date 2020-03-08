@@ -28,6 +28,8 @@ for open_link in links:
 
 author_name=[]
 title=[]
+# I tested this program for the first four sites as it takes the kernel a long time
+# to pull all of the links 
 for open_link in links[0:4]:
     url_array = open_link
     response = Request(url_array, headers = {'User-Agent': 'Mozilla/5.0'})
